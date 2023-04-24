@@ -2,18 +2,14 @@
 
 # Build & run
 
+You can build app with the following command. It will download JavaFX library, if it does not exist.
+
 ```bash
-export PATH_TO_FX=lib/javafx-sdk-20.0.1/lib
+make build
 ```
 
-Build:
+To run an app, execute the following command:
 
 ```bash
-javac -d build --module-path $PATH_TO_FX --add-modules javafx.controls src/net/abracadabralab/*.java
-```
-
-Run:
-
-```bash
-java -cp build --module-path $PATH_TO_FX --add-modules javafx.controls net.abracadabralab.App
+make run
 ```
