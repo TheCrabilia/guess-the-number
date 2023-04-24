@@ -1,6 +1,6 @@
 # Guess the number
 
-# Build & run
+## Build & run
 
 You can build app with the following command. It will download JavaFX library, if it does not exist.
 
