@@ -1,0 +1,5 @@
+[tools]
+java = "20"
+
+[env]
+PATH_TO_FX="lib/javafx-sdk-20.0.1/lib"
